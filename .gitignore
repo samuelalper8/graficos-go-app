@@ -1,0 +1,40 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv
+
+# Arquivos do Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/uploads/
+
+# Arquivos gerados
+*.png
+*.pdf
+*.docx
+*.zip
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+
+# Logs
+*.log
+
+# Diretórios de saída
+output/
+dist/
+build/
